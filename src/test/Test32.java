@@ -8,7 +8,7 @@ public class Test32 {
         Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();
         String s = sc.nextLine();
-        Solution solution = new Solution();
+        Solution32 solution = new Solution32();
         int res  = solution.longestValidParentheses(s);
         System.out.println(res);
 
@@ -16,7 +16,7 @@ public class Test32 {
 }
 
 
-class Solution {
+class Solution32 {
     public int longestValidParentheses(String s) {
         Stack<Integer> stack = new Stack<Integer>();
 
