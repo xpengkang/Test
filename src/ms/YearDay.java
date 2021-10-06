@@ -22,6 +22,10 @@ class YearDay1{
 
         int sumDays = countDays(year, month, day);
         System.out.println(year + "年" + month + "月" + day + "日是当年的第" + sumDays + "天");
+
+
+        String s = "sdfsd";
+        s.replace('s', '3');
     }
 
     private static int countDays(int year, int month, int day){
@@ -60,6 +64,8 @@ class YearDay1{
             case 1:
                 sumDays += day;//当月的天数
         }
+
+
         return sumDays;
 
     }

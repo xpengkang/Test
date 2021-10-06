@@ -16,9 +16,13 @@ public class HJ4{
 //            }
 //        }
 
-        StringBuffer sb = new StringBuffer("abc");
-        System.out.println(sb.length());
-        System.out.println(sb.length()%8);
-        System.out.println(sb + "00000000");
+//        StringBuffer sb = new StringBuffer("abc");
+//        System.out.println(sb.length());
+//        System.out.println(sb.length()%8);
+//        System.out.println(sb + "00000000");
+
+
+        String s = "0123456789";
+        System.out.println(s.substring(0,9));
     }
 }
